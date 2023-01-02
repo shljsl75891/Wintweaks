@@ -1,4 +1,4 @@
-function prompt { 
+ prompt { 
     if ($isAdmin) {
         "[" + (Get-Location) + "] # " 
     } else {
